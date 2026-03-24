@@ -1,0 +1,46 @@
+/**
+    S : top Header
+**/
+.topHeader{padding: 24px 30px; display: flex; align-items: center; justify-content: space-between;}
+.topHeader .util-box{display: flex; align-items: center; gap: 12px;}
+.topHeader .util-box > a{color: var(--primary-color); border: 1px solid var(--primary-color); display: block; padding: 7px 16px;
+font-size: 14px; font-weight: 700; border-radius: 8px;}
+.topHeader .search-box {width: 100%; max-width: 700px; position: relative;}
+.topHeader .search-box input[type="text"]{padding: 18px 20px; width: 100%; max-width: 700px; font-size: 14px; border-radius: 8px; border: 1px solid var(--primary-color);}
+.topHeader .search-box input[type="text"]:focus{border: 2px solid var(--primary-color); outline: none;}
+.topHeader .search-box button{position: absolute; right:20px; top: 50%; transform: translateY(-50%); border: none; background: transparent;}
+.topHeader .profile-box{display: flex; align-items: center; gap: 12px;}
+.topHeader .profile-box p{font-size: 14px; color: #314158; font-weight: 700; line-height: 1.5em;}
+.topHeader .profile-box span{color: #90A1B9; font-weight: 700; font-size: 10px;}
+.bottomHeader{position: relative; background: linear-gradient(90deg, #017FFA 0%, #1A72E7 100%); padding: 0 30px; display: flex; width: 100%; align-items: center;}
+.bottomHeader .open-menu-btn{font-size: 16px; font-weight: 800; color: #fff; position: absolute;
+padding-left: 33px; background: url('../assets/icons/menu.svg') no-repeat left center;}
+.bottomHeader nav{margin: 0 auto;}
+.bottomHeader ul{display: flex; gap: 50px;}
+.bottomHeader ul li{color: #ffffff; font-size: 16px; font-weight: 800;}
+.bottomHeader ul li a{font-weight: 800; padding: 22px 0; display: block; position: relative;}
+.bottomHeader ul li .router-link-exact-active:after{content: ""; display: block; width: 100%; height: 5px; background: var(--primary-color); position: absolute; bottom: 0; border-radius: 5px 5px 0 0;}
+/**
+    E : top Header
+**/
+
+/**
+    S : SubPage Layout
+**/
+.sub-page{display: flex; align-items: top;}
+.left-navi{background-color: #fff; width: 208px; height: calc(100vh - 169px); border-right: 1px solid #E2E8F0;}
+.left-navi .current-page{padding: 16px 16px; color: #0F172B; font-size: 13px; font-weight: 700;}
+.left-navi nav{border-top: 1px solid #E2E8F0;}
+.left-navi nav > ul{padding-top: 8px;}
+.left-navi nav > ul > li{padding: 0 8px;}
+.left-navi .link-inner{padding: 12px 12px; display: flex; align-items: center; gap: 12px;}
+.left-navi .link-inner > p{font-size: 14px; font-weight: 700; color: #314158; cursor: pointer;}
+.left-navi nav > ul > li.active .link-inner{background: #EFF6FF;}
+.left-navi nav > ul > li.active .link-inner > p{color: var(--primary-color);}
+.left-navi nav > ul > li .sub-menu{padding-left: 28px;}
+.left-navi nav > ul > li .sub-menu .sub-link-content{padding: 12px 0; display: flex; align-items: center; gap: 12px;}
+.left-navi nav > ul > li .sub-menu .sub-link-content span{font-size: 14px; color: #314158; font-weight: 700; cursor: pointer;}
+.left-navi nav > ul > li .sub-menu .router-link-active span{color: var(--primary-color);}
+/**
+    E : SubPage Layout
+**/
