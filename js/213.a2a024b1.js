@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmy_project"]=self["webpackChunkmy_project"]||[]).push([[213],{213:function(n,r,u){u.r(r),u.d(r,{default:function(){return f}});var e=u(768);const t={class:"sub"};function c(n,r){return(0,e.uX)(),(0,e.CE)("div",t,[...r[0]||(r[0]=[(0,e.Lk)("h1",null,"서브 페이지4",-1)])])}var s=u(241);const a={},o=(0,s.A)(a,[["render",c]]);var f=o}}]);
+//# sourceMappingURL=213.a2a024b1.js.map

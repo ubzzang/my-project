@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmy_project"]=self["webpackChunkmy_project"]||[]).push([[590],{590:function(e,n,r){r.r(n),r.d(n,{default:function(){return f}});var t=r(768);const u={class:"sub"};function c(e,n){return(0,t.uX)(),(0,t.CE)("div",u,[...n[0]||(n[0]=[(0,t.Lk)("h1",null,"서브 페이지1",-1)])])}var a=r(241);const s={},o=(0,a.A)(s,[["render",c],["__scopeId","data-v-255beafa"]]);var f=o}}]);
+//# sourceMappingURL=590.a5d778b8.js.map
